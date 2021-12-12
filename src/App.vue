@@ -1,17 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Hello I'm Vue3</h1>
+  <!-- <FirstComponent msg="Hello" /> -->
+  <!-- <Interpolation /> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+/* import FirstComponent from "./components/FirstComponent.vue"; */
+/* import Interpolation from "./components/Interpolation.vue"; */
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    /* FirstComponent, */
+    /* Interpolation, */
+  },
+};
 </script>
 
 <style>
