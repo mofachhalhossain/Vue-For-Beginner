@@ -3,21 +3,25 @@
   <!-- <FirstComponent msg="Hello" /> -->
   <!-- <Interpolation /> -->
   <!-- <DefineMethod /> -->
-  <Events />
+  <!-- <Events /> -->
+  <TwoWayBinding />
 </template>
 
 <script>
 /* import FirstComponent from "./components/FirstComponent.vue"; */
 /* import Interpolation from "./components/Interpolation.vue"; */
 /* import DefineMethod from "./components/DefineMethod.vue"; */
-import Events from "./components/Events.vue";
+/* import Events from "./components/Events.vue"; */
+import TwoWayBinding from "./components/TwoWayBinding.vue";
+
 export default {
   name: "App",
   components: {
     /* FirstComponent, */
     /* Interpolation, */
     /* DefineMethod, */
-    Events,
+    /* Events, */
+    TwoWayBinding,
   },
 };
 </script>
