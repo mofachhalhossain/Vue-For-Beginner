@@ -5,7 +5,8 @@
   <!-- <DefineMethod /> -->
   <!-- <Events /> -->
   <!-- <TwoWayBinding /> -->
-  <InputField />
+  <!-- <InputField /> -->
+  <CheckboxAndRadioButton />
 </template>
 
 <script>
@@ -14,7 +15,8 @@
 /* import DefineMethod from "./components/DefineMethod.vue"; */
 /* import Events from "./components/Events.vue"; */
 /* import TwoWayBinding from "./components/TwoWayBinding.vue"; */
-import InputField from "./components/InputField.vue";
+/* import InputField from "./components/InputField.vue"; */
+import CheckboxAndRadioButton from "./components/CheckboxAndRadioButton.vue";
 
 export default {
   name: "App",
@@ -24,7 +26,8 @@ export default {
     /* DefineMethod, */
     /* Events, */
     /* TwoWayBinding, */
-    InputField,
+    /* InputField, */
+    CheckboxAndRadioButton,
   },
 };
 </script>
