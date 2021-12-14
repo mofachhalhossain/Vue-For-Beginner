@@ -6,7 +6,8 @@
   <!-- <Events /> -->
   <!-- <TwoWayBinding /> -->
   <!-- <InputField /> -->
-  <CheckboxAndRadioButton />
+  <!-- <CheckboxAndRadioButton /> -->
+  <!-- <Condition /> -->
 </template>
 
 <script>
@@ -16,7 +17,8 @@
 /* import Events from "./components/Events.vue"; */
 /* import TwoWayBinding from "./components/TwoWayBinding.vue"; */
 /* import InputField from "./components/InputField.vue"; */
-import CheckboxAndRadioButton from "./components/CheckboxAndRadioButton.vue";
+/* import CheckboxAndRadioButton from "./components/CheckboxAndRadioButton.vue"; */
+/* import Condition from "./components/Condition.vue"; */
 
 export default {
   name: "App",
@@ -27,7 +29,8 @@ export default {
     /* Events, */
     /* TwoWayBinding, */
     /* InputField, */
-    CheckboxAndRadioButton,
+    /* CheckboxAndRadioButton, */
+    /* Condition, */
   },
 };
 </script>
