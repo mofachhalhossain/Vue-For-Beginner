@@ -8,7 +8,8 @@
   <!-- <InputField /> -->
   <!-- <CheckboxAndRadioButton /> -->
   <!-- <Condition /> -->
-  <ForLoop />
+  <!-- <ForLoop /> -->
+  <PassDataParentToChild :name="name" :user="user" :getemail="getemail" />
 </template>
 
 <script>
@@ -20,7 +21,8 @@
 /* import InputField from "./components/InputField.vue"; */
 /* import CheckboxAndRadioButton from "./components/CheckboxAndRadioButton.vue"; */
 /* import Condition from "./components/Condition.vue"; */
-import ForLoop from "./components/ForLoop.vue";
+/* import ForLoop from "./components/ForLoop.vue"; */
+import PassDataParentToChild from "./components/PassDataParentToChild.vue";
 
 export default {
   name: "App",
@@ -33,7 +35,22 @@ export default {
     /* InputField, */
     /* CheckboxAndRadioButton, */
     /* Condition, */
-    ForLoop,
+    /* ForLoop, */
+    PassDataParentToChild,
+  },
+  data() {
+    return {
+      name: "Sara",
+      user: {
+        name: "Sara",
+        age: "23",
+      },
+    };
+  },
+  methods: {
+    getemail() {
+      alert("Function called");
+    },
   },
 };
 </script>
