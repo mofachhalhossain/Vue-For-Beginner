@@ -8,6 +8,7 @@
   <!-- <InputField /> -->
   <!-- <CheckboxAndRadioButton /> -->
   <!-- <Condition /> -->
+  <ForLoop />
 </template>
 
 <script>
@@ -19,6 +20,7 @@
 /* import InputField from "./components/InputField.vue"; */
 /* import CheckboxAndRadioButton from "./components/CheckboxAndRadioButton.vue"; */
 /* import Condition from "./components/Condition.vue"; */
+import ForLoop from "./components/ForLoop.vue";
 
 export default {
   name: "App",
@@ -31,6 +33,7 @@ export default {
     /* InputField, */
     /* CheckboxAndRadioButton, */
     /* Condition, */
+    ForLoop,
   },
 };
 </script>
