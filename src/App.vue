@@ -4,7 +4,8 @@
   <!-- <Interpolation /> -->
   <!-- <DefineMethod /> -->
   <!-- <Events /> -->
-  <TwoWayBinding />
+  <!-- <TwoWayBinding /> -->
+  <InputField />
 </template>
 
 <script>
@@ -12,7 +13,8 @@
 /* import Interpolation from "./components/Interpolation.vue"; */
 /* import DefineMethod from "./components/DefineMethod.vue"; */
 /* import Events from "./components/Events.vue"; */
-import TwoWayBinding from "./components/TwoWayBinding.vue";
+/* import TwoWayBinding from "./components/TwoWayBinding.vue"; */
+import InputField from "./components/InputField.vue";
 
 export default {
   name: "App",
@@ -21,7 +23,8 @@ export default {
     /* Interpolation, */
     /* DefineMethod, */
     /* Events, */
-    TwoWayBinding,
+    /* TwoWayBinding, */
+    InputField,
   },
 };
 </script>
