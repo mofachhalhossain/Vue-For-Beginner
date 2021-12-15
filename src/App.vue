@@ -16,7 +16,8 @@
       <ReuseComponents :data="item" />
     </li>
   </ul> -->
-  <HtmlBinding />
+  <!-- <HtmlBinding /> -->
+  <ClassBinding />
 </template>
 
 <script>
@@ -31,7 +32,8 @@
 /* import ForLoop from "./components/ForLoop.vue"; */
 /* import PassDataParentToChild from "./components/PassDataParentToChild.vue"; */
 /* import ReuseComponents from "./components/ReuseComponents.vue"; */
-import HtmlBinding from "./components/HtmlBinding.vue";
+/* import HtmlBinding from "./components/HtmlBinding.vue"; */
+import ClassBinding from "./components/ClassBinding.vue";
 
 export default {
   name: "App",
@@ -47,7 +49,8 @@ export default {
     /* ForLoop, */
     /* PassDataParentToChild, */
     /* ReuseComponents, */
-    HtmlBinding,
+    /* HtmlBinding, */
+    ClassBinding,
   },
   /*  data passing from parent to child: */
   /* data() {
