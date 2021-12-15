@@ -9,7 +9,13 @@
   <!-- <CheckboxAndRadioButton /> -->
   <!-- <Condition /> -->
   <!-- <ForLoop /> -->
-  <PassDataParentToChild :name="name" :user="user" :getemail="getemail" />
+  <!-- <PassDataParentToChild :name="name" :user="user" :getemail="getemail" /> -->
+
+  <!-- <ul>
+    <li v-for="item in users" :key="item">
+      <ReuseComponents :data="item" />
+    </li>
+  </ul> -->
 </template>
 
 <script>
@@ -22,7 +28,8 @@
 /* import CheckboxAndRadioButton from "./components/CheckboxAndRadioButton.vue"; */
 /* import Condition from "./components/Condition.vue"; */
 /* import ForLoop from "./components/ForLoop.vue"; */
-import PassDataParentToChild from "./components/PassDataParentToChild.vue";
+/* import PassDataParentToChild from "./components/PassDataParentToChild.vue"; */
+/* import ReuseComponents from "./components/ReuseComponents.vue"; */
 
 export default {
   name: "App",
@@ -36,9 +43,11 @@ export default {
     /* CheckboxAndRadioButton, */
     /* Condition, */
     /* ForLoop, */
-    PassDataParentToChild,
+    /* PassDataParentToChild, */
+    /* ReuseComponents, */
   },
-  data() {
+  /*  data passing from parent to child: */
+  /* data() {
     return {
       name: "Sara",
       user: {
@@ -52,6 +61,17 @@ export default {
       alert("Function called");
     },
   },
+}; */
+
+  /* data() {
+    return {
+      users: [
+        { name: "Sara", age: "23" },
+        { name: "John", age: "24" },
+        { name: "Bob", age: "25" },
+      ],
+    };
+}; */
 };
 </script>
 
