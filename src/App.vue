@@ -18,8 +18,9 @@
   </ul> -->
   <!-- <HtmlBinding /> -->
   <!-- <ClassBinding /> -->
-  <Props_Student :name="name" :email="email" />
-  <Props_Teacher name="Peter" />
+  <!-- <Props_Student :name="name" :email="email" />
+  <Props_Teacher name="Peter" /> -->
+  <RefOrDOM />
 </template>
 
 <script>
@@ -36,8 +37,9 @@
 /* import ReuseComponents from "./components/ReuseComponents.vue"; */
 /* import HtmlBinding from "./components/HtmlBinding.vue"; */
 /* import ClassBinding from "./components/ClassBinding.vue"; */
-import Props_Student from "./components/Props_Student.vue";
-import Props_Teacher from "./components/Props_Teacher.vue";
+/* import Props_Student from "./components/Props_Student.vue";
+import Props_Teacher from "./components/Props_Teacher.vue"; */
+import RefOrDOM from "./components/RefOrDOM.vue";
 
 export default {
   name: "App",
@@ -55,8 +57,9 @@ export default {
     /* ReuseComponents, */
     /* HtmlBinding, */
     /* ClassBinding, */
-    Props_Student,
-    Props_Teacher,
+    /* Props_Student,
+    Props_Teacher, */
+    RefOrDOM,
   },
   /*  data passing from parent to child: */
   /* data() {
@@ -84,12 +87,13 @@ export default {
       ],
     };
 }; */
-  data() {
+  /* props and child to parent data transfer */
+  /* data() {
     return {
       name: "Bruce",
     };
   },
-  props: { email: String },
+  props: { email: String }, */
 };
 </script>
 
