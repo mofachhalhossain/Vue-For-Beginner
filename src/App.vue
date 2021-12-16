@@ -22,7 +22,8 @@
   <Props_Teacher name="Peter" /> -->
   <!-- <RefOrDOM /> -->
   <!-- <SimpleFormExample :submit="submit" /> -->
-  <Non_PropsData item="some data" name="user-cmp" />
+  <!-- <Non_PropsData item="some data" name="user-cmp" /> -->
+  <ComputedProperty />
 </template>
 
 <script>
@@ -43,7 +44,8 @@
 import Props_Teacher from "./components/Props_Teacher.vue"; */
 /* import RefOrDOM from "./components/RefOrDOM.vue"; */
 /* import SimpleFormExample from "./components/SimpleFormExample.vue"; */
-import Non_PropsData from "./components/Non_PropsData.vue";
+/* import Non_PropsData from "./components/Non_PropsData.vue"; */
+import ComputedProperty from "./components/ComputedProperty.vue";
 
 export default {
   name: "App",
@@ -65,7 +67,8 @@ export default {
     Props_Teacher, */
     /* RefOrDOM, */
     /* SimpleFormExample, */
-    Non_PropsData,
+    /* Non_PropsData, */
+    ComputedProperty,
   },
   /* data() {
     return {
