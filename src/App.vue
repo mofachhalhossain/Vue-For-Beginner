@@ -21,7 +21,8 @@
   <!-- <Props_Student :name="name" :email="email" />
   <Props_Teacher name="Peter" /> -->
   <!-- <RefOrDOM /> -->
-  <SimpleFormExample :submit="submit" />
+  <!-- <SimpleFormExample :submit="submit" /> -->
+  <Non_PropsData item="some data" name="user-cmp" />
 </template>
 
 <script>
@@ -41,7 +42,8 @@
 /* import Props_Student from "./components/Props_Student.vue";
 import Props_Teacher from "./components/Props_Teacher.vue"; */
 /* import RefOrDOM from "./components/RefOrDOM.vue"; */
-import SimpleFormExample from "./components/SimpleFormExample.vue";
+/* import SimpleFormExample from "./components/SimpleFormExample.vue"; */
+import Non_PropsData from "./components/Non_PropsData.vue";
 
 export default {
   name: "App",
@@ -62,15 +64,16 @@ export default {
     /* Props_Student,
     Props_Teacher, */
     /* RefOrDOM, */
-    SimpleFormExample,
+    /* SimpleFormExample, */
+    Non_PropsData,
   },
-  data() {
+  /* data() {
     return {
       email: this.email,
       password: this.password,
     };
   },
-  props: { submit: Function },
+  props: { submit: Function }, */
   /*  data passing from parent to child: */
   /* data() {
     return {
