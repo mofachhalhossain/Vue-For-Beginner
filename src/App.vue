@@ -20,7 +20,8 @@
   <!-- <ClassBinding /> -->
   <!-- <Props_Student :name="name" :email="email" />
   <Props_Teacher name="Peter" /> -->
-  <RefOrDOM />
+  <!-- <RefOrDOM /> -->
+  <SimpleFormExample :submit="submit" />
 </template>
 
 <script>
@@ -39,7 +40,8 @@
 /* import ClassBinding from "./components/ClassBinding.vue"; */
 /* import Props_Student from "./components/Props_Student.vue";
 import Props_Teacher from "./components/Props_Teacher.vue"; */
-import RefOrDOM from "./components/RefOrDOM.vue";
+/* import RefOrDOM from "./components/RefOrDOM.vue"; */
+import SimpleFormExample from "./components/SimpleFormExample.vue";
 
 export default {
   name: "App",
@@ -59,8 +61,16 @@ export default {
     /* ClassBinding, */
     /* Props_Student,
     Props_Teacher, */
-    RefOrDOM,
+    /* RefOrDOM, */
+    SimpleFormExample,
   },
+  data() {
+    return {
+      email: this.email,
+      password: this.password,
+    };
+  },
+  props: { submit: Function },
   /*  data passing from parent to child: */
   /* data() {
     return {
