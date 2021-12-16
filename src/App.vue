@@ -17,7 +17,9 @@
     </li>
   </ul> -->
   <!-- <HtmlBinding /> -->
-  <ClassBinding />
+  <!-- <ClassBinding /> -->
+  <Props_Student :name="name" :email="email" />
+  <Props_Teacher name="Peter" />
 </template>
 
 <script>
@@ -33,7 +35,9 @@
 /* import PassDataParentToChild from "./components/PassDataParentToChild.vue"; */
 /* import ReuseComponents from "./components/ReuseComponents.vue"; */
 /* import HtmlBinding from "./components/HtmlBinding.vue"; */
-import ClassBinding from "./components/ClassBinding.vue";
+/* import ClassBinding from "./components/ClassBinding.vue"; */
+import Props_Student from "./components/Props_Student.vue";
+import Props_Teacher from "./components/Props_Teacher.vue";
 
 export default {
   name: "App",
@@ -50,7 +54,9 @@ export default {
     /* PassDataParentToChild, */
     /* ReuseComponents, */
     /* HtmlBinding, */
-    ClassBinding,
+    /* ClassBinding, */
+    Props_Student,
+    Props_Teacher,
   },
   /*  data passing from parent to child: */
   /* data() {
@@ -78,6 +84,12 @@ export default {
       ],
     };
 }; */
+  data() {
+    return {
+      name: "Bruce",
+    };
+  },
+  props: { email: String },
 };
 </script>
 
