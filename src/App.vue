@@ -23,7 +23,8 @@
   <!-- <RefOrDOM /> -->
   <!-- <SimpleFormExample :submit="submit" /> -->
   <!-- <Non_PropsData item="some data" name="user-cmp" /> -->
-  <ComputedProperty />
+  <!-- <ComputedProperty /> -->
+  <WatcherOrObserver />
 </template>
 
 <script>
@@ -45,7 +46,8 @@ import Props_Teacher from "./components/Props_Teacher.vue"; */
 /* import RefOrDOM from "./components/RefOrDOM.vue"; */
 /* import SimpleFormExample from "./components/SimpleFormExample.vue"; */
 /* import Non_PropsData from "./components/Non_PropsData.vue"; */
-import ComputedProperty from "./components/ComputedProperty.vue";
+/* import ComputedProperty from "./components/ComputedProperty.vue"; */
+import WatcherOrObserver from "./components/WatcherOrObserver.vue";
 
 export default {
   name: "App",
@@ -68,7 +70,8 @@ export default {
     /* RefOrDOM, */
     /* SimpleFormExample, */
     /* Non_PropsData, */
-    ComputedProperty,
+    /* ComputedProperty, */
+    WatcherOrObserver,
   },
   /* data() {
     return {
