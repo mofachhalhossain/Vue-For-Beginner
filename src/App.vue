@@ -24,7 +24,8 @@
   <!-- <SimpleFormExample :submit="submit" /> -->
   <!-- <Non_PropsData item="some data" name="user-cmp" /> -->
   <!-- <ComputedProperty /> -->
-  <WatcherOrObserver />
+  <!-- <WatcherOrObserver /> -->
+  <Slots><h1>Code step by step</h1></Slots>
 </template>
 
 <script>
@@ -47,7 +48,8 @@ import Props_Teacher from "./components/Props_Teacher.vue"; */
 /* import SimpleFormExample from "./components/SimpleFormExample.vue"; */
 /* import Non_PropsData from "./components/Non_PropsData.vue"; */
 /* import ComputedProperty from "./components/ComputedProperty.vue"; */
-import WatcherOrObserver from "./components/WatcherOrObserver.vue";
+/* import WatcherOrObserver from "./components/WatcherOrObserver.vue"; */
+import Slots from "./components/Slots.vue";
 
 export default {
   name: "App",
@@ -71,7 +73,8 @@ export default {
     /* SimpleFormExample, */
     /* Non_PropsData, */
     /* ComputedProperty, */
-    WatcherOrObserver,
+    /* WatcherOrObserver, */
+    Slots,
   },
   /* data() {
     return {
